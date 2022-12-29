@@ -29567,3 +29567,201 @@ Level flags = 0
 Total triangle count: 15284
 Writing c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
 21 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading c:\users\lukáš\documents\escape-hl2mod\plusplus.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in d:\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/plusplus/nature/blenddirtgrass001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-1092.00 -2543.00 1297.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 -5120.0 1175.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 -5632.0 1175.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 -6144.0 1175.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3584.0 -6144.0 1175.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3584.0 -5120.0 1175.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2560.0 -6144.0 1175.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2560.0 -5120.0 1175.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1536.0 -5120.0 1175.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Brush 103679: WARNING, microbrush
+Brush 103681: WARNING, microbrush
+Brush 103682: WARNING, microbrush
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (227155 bytes)
+Error! prop_static using model "models/props_c17/furniturefridge001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furniturefridge001a.mdl"!
+Error! To use model "models/weapons/w_package.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/weapons/w_package.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2218 texinfos to 1327
+Reduced 295 texdatas to 253 (14356 bytes to 12654)
+Writing c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+2 seconds elapsed
+
+
+
+12 threads
+reading c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+reading c:\users\lukáš\documents\escape-hl2mod\plusplus.prt
+LoadPortals: couldn't read c:\users\lukáš\documents\escape-hl2mod\plusplus.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+No vis information, direct lighting only.
+5680 faces
+2956217 square feet [425695360.00 square inches]
+1 Displacements
+1057 Square Feet [152306.00 Square Inches]
+84 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0186 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  33/1024         1584/49152    ( 3.2%) 
+brushes                587/8192         7044/98304    ( 7.2%) 
+brushsides            3874/65536       30992/524288   ( 5.9%) 
+planes                3806/65536       76120/1310720  ( 5.8%) 
+vertexes              8612/65536      103344/786432   (13.1%) 
+nodes                 3396/65536      108672/2097152  ( 5.2%) 
+texinfos              1327/12288       95544/884736   (10.8%) 
+texdata                253/2048         8096/65536    (12.4%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts              81/0            1620/0        ( 0.0%) 
+disp_tris              128/0             256/0        ( 0.0%) 
+disp_lmsamples        2640/0            2640/0        ( 0.0%) 
+faces                 5680/65536      318080/3670016  ( 8.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2364/65536      132384/3670016  ( 3.6%) 
+leaves                3430/65536      109760/2097152  ( 5.2%) 
+leaffaces             6938/65536       13876/131072   (10.6%) 
+leafbrushes           1863/65536        3726/131072   ( 2.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            36578/512000     146312/2048000  ( 7.1%) 
+edges                19847/256000      79388/1024000  ( 7.8%) 
+LDR worldlights         84/8192         7392/720896   ( 1.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            530/32768        5300/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8199/65536       16398/131072   (12.5%) 
+cubemapsamples          36/1024          576/16384    ( 3.5%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     4024200/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      250895/393216   (63.8%) 
+LDR ambient table     3430/65536       13720/262144   ( 5.2%) 
+HDR ambient table     3430/65536       13720/262144   ( 5.2%) 
+LDR leaf ambient     15222/65536      426216/1835008  (23.2%) 
+HDR leaf ambient      3430/65536       96040/1835008  ( 5.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14076    ( 0.0%) 
+pakfile               [variable]     3983481/0        ( 0.0%) 
+physics               [variable]      227155/4194304  ( 5.4%) 
+physics terrain       [variable]         237/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 15728
+Writing c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+21 seconds elapsed
