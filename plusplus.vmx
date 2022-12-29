@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "200"
+	"mapversion" "202"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "200"
+	"mapversion" "202"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -57783,7 +57783,7 @@ world
 				"v" "1760 -2979 402"
 				"v" "1760 -3651 402"
 			}
-			"material" "BUILDING_TEMPLATE/BUILDING_TEMPLATE014B"
+			"material" "BUILDING_TEMPLATE/ROOF_TEMPLATE001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -59435,7 +59435,7 @@ world
 				"v" "2549 -3038 519"
 				"v" "2549 -3455 519"
 			}
-			"material" "BUILDING_TEMPLATE/BUILDING_TEMPLATE014B"
+			"material" "BUILDING_TEMPLATE/ROOF_TEMPLATE001A"
 			"uaxis" "[1 0 0 -7] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -59553,7 +59553,7 @@ world
 				"v" "2910 -3038 403"
 				"v" "2910 -3696 403"
 			}
-			"material" "BUILDING_TEMPLATE/BUILDING_TEMPLATE021C"
+			"material" "BUILDING_TEMPLATE/ROOF_TEMPLATE001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -424.766] 0.25"
 			"rotation" "0"
@@ -59671,7 +59671,7 @@ world
 				"v" "3425 -3036 403"
 				"v" "3425 -3340 403"
 			}
-			"material" "BUILDING_TEMPLATE/BUILDING_TEMPLATE012B"
+			"material" "BUILDING_TEMPLATE/ROOF_TEMPLATE001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -73380,56 +73380,69 @@ entity
 }
 entity
 {
-	"id" "15715"
-	"classname" "item_battery"
-	"angles" "0.110882 -103.158 0.514453"
+	"id" "125828"
+	"classname" "npc_zombie"
+	"angles" "0 330 0"
+	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"origin" "2927.46 -754.75 364.243"
+	"hintlimiting" "0"
+	"ignoreunseenenemies" "1"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sleepstate" "0"
+	"spawnflags" "516"
+	"wakeradius" "0"
+	"wakesquad" "0"
+	"origin" "3042.83 -1990.02 18"
 	editor
 	{
-		"color" "0 0 200"
+		"color" "0 200 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8268]"
+		"logicalpos" "[0 -5768]"
 	}
 }
 entity
 {
-	"id" "15713"
-	"classname" "item_battery"
-	"angles" "-0.00931317 -102.718 0.833314"
+	"id" "125834"
+	"classname" "prop_ragdoll"
+	"angleOverride" "0,0.21 2.42 77.53,1,-76.89 92.97 78.93,2,69.38 -121.49 -152.35,3,64.92 6.29 -23.92,4,61.88 1.58 -31.09,5,41.19 -140.64 -91.43,6,70.06 -124.29 -154.41,7,-0.01 -159.31 90.87,8,5.44 -91.14 -90.80,9,4.49 -91.21 -90.97,10,-62.91 -177.18 154.50,11,5.04 -95.84 -104.76,12,4.95 -95.84 -104.56,13,-62.57 -97.24 -95.17,14,-61.50 -94.85 -85.02"
+	"angles" "-15 270 0"
 	"disableshadows" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"origin" "2932.09 -759.845 364.205"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/humans/group02/male_02.mdl"
+	"modelscale" "1.0"
+	"skin" "0"
+	"spawnflags" "4"
+	"StartDisabled" "0"
+	"origin" "2981.45 -1931.84 22.8991"
 	editor
 	{
-		"color" "0 0 200"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8268]"
+		"logicalpos" "[0 -5268]"
 	}
 }
 entity
 {
-	"id" "15711"
-	"classname" "item_battery"
-	"angles" "-0.00931948 -102.688 0.775058"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"origin" "2936.56 -763.705 364.217"
+	"id" "125849"
+	"classname" "infodecal"
+	"texture" "decals/bloodstain_002"
+	"origin" "2985.89 -1920 42.9854"
 	editor
 	{
-		"color" "0 0 200"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8268]"
+		"logicalpos" "[0 -4268]"
 	}
 }
 entity
@@ -73749,38 +73762,30 @@ entity
 }
 entity
 {
-	"id" "14630"
-	"classname" "item_ammo_pistol"
-	"angles" "0.111418 0.0337984 359.951"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"origin" "2699.72 -725.708 197.199"
+	"id" "125852"
+	"classname" "infodecal"
+	"texture" "decals/blood1"
+	"origin" "2967.06 -1938.79 18"
 	editor
 	{
-		"color" "0 0 200"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
+		"logicalpos" "[0 -3768]"
 	}
 }
 entity
 {
-	"id" "14619"
-	"classname" "item_ammo_pistol"
-	"angles" "0.396261 0.200819 359.842"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"origin" "2690.41 -726.28 197.152"
+	"id" "125855"
+	"classname" "infodecal"
+	"texture" "decals/blood1"
+	"origin" "2996.31 -1931.69 18"
 	editor
 	{
-		"color" "0 0 200"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
+		"logicalpos" "[0 -3268]"
 	}
 }
 entity
@@ -80856,32 +80861,28 @@ entity
 }
 entity
 {
-	"id" "12210"
-	"classname" "item_ammo_smg1"
-	"angles" "-0.112122 29.996 0.0632945"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"origin" "1746.01 -1041 51.5455"
+	"id" "125883"
+	"classname" "info_player_start"
+	"angles" "0 0 0"
+	"origin" "-842 550 18"
 	editor
 	{
-		"color" "0 0 200"
+		"color" "0 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8768]"
+		"logicalpos" "[500 500]"
 	}
 }
 entity
 {
 	"id" "12219"
 	"classname" "item_ammo_smg1"
-	"angles" "-0.20614 30.0112 359.796"
+	"angles" "-0.20614 30.0112 -0.204021"
 	"disableshadows" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"origin" "1733.03 -1048.07 51.5127"
+	"origin" "1743 -1046 51.5127"
 	editor
 	{
 		"color" "0 0 200"
@@ -80909,19 +80910,27 @@ entity
 }
 entity
 {
-	"id" "12249"
-	"classname" "weapon_ar2"
-	"angles" "11.5393 257.786 -90.267"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"origin" "1742 -1080 61.0943"
+	"id" "125894"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"message" "Damn, looks like I need a fuse."
+	"targetname" "needfuse"
+	"x" "-1"
+	"y" "-1"
+	"origin" "3019 -2013 73.1602"
 	editor
 	{
-		"color" "0 0 200"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8268]"
+		"logicalpos" "[500 2000]"
 	}
 }
 entity
@@ -80943,19 +80952,16 @@ entity
 }
 entity
 {
-	"id" "12254"
-	"classname" "weapon_ar2"
-	"angles" "-1.07147 -116.609 125.519"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"origin" "1754.21 -1129.19 55.4681"
+	"id" "125858"
+	"classname" "infodecal"
+	"texture" "decals/blood1"
+	"origin" "2960.85 -1924.87 18"
 	editor
 	{
-		"color" "0 0 200"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8268]"
+		"logicalpos" "[0 -2768]"
 	}
 }
 entity
@@ -82222,32 +82228,147 @@ entity
 }
 entity
 {
-	"id" "15601"
-	"classname" "item_healthkit"
-	"angles" "-0.072292 -103.465 359.942"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"origin" "1727.99 -1110.99 51.4045"
+	"id" "125888"
+	"classname" "trigger_once"
+	"origin" "2990.5 -1999.5 97"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	solid
+	{
+		"id" "125885"
+		side
+		{
+			"id" "9563"
+			"plane" "(2982 -1920 174) (2999 -1920 174) (2999 -2079 174)"
+			vertices_plus
+			{
+				"v" "2982 -1920 174"
+				"v" "2999 -1920 174"
+				"v" "2999 -2079 174"
+				"v" "2982 -2079 174"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9562"
+			"plane" "(2982 -2079 20) (2999 -2079 20) (2999 -1920 20)"
+			vertices_plus
+			{
+				"v" "2982 -2079 20"
+				"v" "2999 -2079 20"
+				"v" "2999 -1920 20"
+				"v" "2982 -1920 20"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9561"
+			"plane" "(2982 -1920 174) (2982 -2079 174) (2982 -2079 20)"
+			vertices_plus
+			{
+				"v" "2982 -1920 174"
+				"v" "2982 -2079 174"
+				"v" "2982 -2079 20"
+				"v" "2982 -1920 20"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9560"
+			"plane" "(2999 -1920 20) (2999 -2079 20) (2999 -2079 174)"
+			vertices_plus
+			{
+				"v" "2999 -1920 20"
+				"v" "2999 -2079 20"
+				"v" "2999 -2079 174"
+				"v" "2999 -1920 174"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9559"
+			"plane" "(2999 -1920 174) (2982 -1920 174) (2982 -1920 20)"
+			vertices_plus
+			{
+				"v" "2999 -1920 174"
+				"v" "2982 -1920 174"
+				"v" "2982 -1920 20"
+				"v" "2999 -1920 20"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9558"
+			"plane" "(2999 -2079 20) (2982 -2079 20) (2982 -2079 174)"
+			vertices_plus
+			{
+				"v" "2999 -2079 20"
+				"v" "2982 -2079 20"
+				"v" "2982 -2079 174"
+				"v" "2999 -2079 174"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	editor
 	{
-		"color" "0 0 200"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8268]"
+		"logicalpos" "[500 1500]"
 	}
 }
 entity
 {
 	"id" "15616"
 	"classname" "item_healthkit"
-	"angles" "-0.00275993 -83.6456 359.902"
+	"angles" "-0.00275993 276.354 -0.0979895"
 	"disableshadows" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"origin" "1753.02 -1103.99 51.4447"
+	"origin" "1739 -1099 51.4447"
 	editor
 	{
 		"color" "0 0 200"
@@ -82276,20 +82397,16 @@ entity
 }
 entity
 {
-	"id" "15626"
-	"classname" "item_battery"
-	"angles" "-0.0016478 -102.997 359.41"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"origin" "1756.03 -1085.97 51.3775"
+	"id" "125861"
+	"classname" "infodecal"
+	"texture" "decals/blood1"
+	"origin" "2990.65 -1939.96 18"
 	editor
 	{
-		"color" "0 0 200"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8268]"
+		"logicalpos" "[0 -2268]"
 	}
 }
 entity
@@ -82534,20 +82651,29 @@ entity
 }
 entity
 {
-	"id" "15697"
-	"classname" "item_healthkit"
-	"angles" "0.0475452 -83.659 0.148221"
+	"id" "125825"
+	"classname" "npc_zombie"
+	"angles" "0 330 0"
+	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"origin" "2920.62 -767.82 364.203"
+	"hintlimiting" "0"
+	"ignoreunseenenemies" "1"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sleepstate" "0"
+	"spawnflags" "516"
+	"wakeradius" "0"
+	"wakesquad" "0"
+	"origin" "2773.65 -2553.51 18"
 	editor
 	{
-		"color" "0 0 200"
+		"color" "0 200 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8268]"
+		"logicalpos" "[0 -5768]"
 	}
 }
 entity
@@ -85211,7 +85337,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"origin" "3031 -2328 478.485"
+	"origin" "3010 -2336 486"
 	editor
 	{
 		"color" "0 0 200"
@@ -85222,20 +85348,29 @@ entity
 }
 entity
 {
-	"id" "54171"
-	"classname" "item_ammo_357"
-	"angles" "0 60 0"
+	"id" "125813"
+	"classname" "npc_zombie"
+	"angles" "0 255 0"
+	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"origin" "3005.08 -2325.85 479.673"
+	"hintlimiting" "0"
+	"ignoreunseenenemies" "1"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sleepstate" "0"
+	"spawnflags" "516"
+	"wakeradius" "0"
+	"wakesquad" "0"
+	"origin" "2855 -2401 19"
 	editor
 	{
-		"color" "0 0 200"
+		"color" "0 200 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
+		"logicalpos" "[0 -5768]"
 	}
 }
 entity
@@ -95206,13 +95341,16 @@ entity
 }
 entity
 {
-	"id" "125813"
-	"classname" "npc_zombie"
-	"angles" "0 255 0"
+	"id" "125909"
+	"classname" "npc_combine_s"
+	"additionalequipment" "weapon_smg1"
+	"angles" "0 180 0"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
 	"hintlimiting" "0"
-	"ignoreunseenenemies" "1"
+	"ignoreunseenenemies" "0"
+	"model" "models/combine_soldier.mdl"
+	"NumGrenades" "5"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -95220,26 +95358,32 @@ entity
 	"rendermode" "0"
 	"sleepstate" "0"
 	"spawnflags" "516"
+	"tacticalvariant" "0"
+	"usemarch" "0"
+	"waitingtorappel" "No"
 	"wakeradius" "0"
 	"wakesquad" "0"
-	"origin" "2855 -2401 19"
+	"origin" "3083 -2894 107"
 	editor
 	{
 		"color" "0 200 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -5768]"
+		"logicalpos" "[0 6500]"
 	}
 }
 entity
 {
-	"id" "125825"
-	"classname" "npc_zombie"
-	"angles" "0 330 0"
+	"id" "125911"
+	"classname" "npc_combine_s"
+	"additionalequipment" "weapon_smg1"
+	"angles" "0 180 0"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
 	"hintlimiting" "0"
-	"ignoreunseenenemies" "1"
+	"ignoreunseenenemies" "0"
+	"model" "models/combine_soldier.mdl"
+	"NumGrenades" "5"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -95247,152 +95391,32 @@ entity
 	"rendermode" "0"
 	"sleepstate" "0"
 	"spawnflags" "516"
+	"tacticalvariant" "0"
+	"usemarch" "0"
+	"waitingtorappel" "No"
 	"wakeradius" "0"
 	"wakesquad" "0"
-	"origin" "2773.65 -2553.51 18"
+	"origin" "3085 -2963 107"
 	editor
 	{
 		"color" "0 200 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -5768]"
+		"logicalpos" "[0 6500]"
 	}
 }
 entity
 {
-	"id" "125828"
-	"classname" "npc_zombie"
-	"angles" "0 330 0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"hintlimiting" "0"
-	"ignoreunseenenemies" "1"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"sleepstate" "0"
-	"spawnflags" "516"
-	"wakeradius" "0"
-	"wakesquad" "0"
-	"origin" "3042.83 -1990.02 18"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -5768]"
-	}
-}
-entity
-{
-	"id" "125834"
-	"classname" "prop_ragdoll"
-	"angleOverride" "0,0.21 2.42 77.53,1,-76.89 92.97 78.93,2,69.38 -121.49 -152.35,3,64.92 6.29 -23.92,4,61.88 1.58 -31.09,5,41.19 -140.64 -91.43,6,70.06 -124.29 -154.41,7,-0.01 -159.31 90.87,8,5.44 -91.14 -90.80,9,4.49 -91.21 -90.97,10,-62.91 -177.18 154.50,11,5.04 -95.84 -104.76,12,4.95 -95.84 -104.56,13,-62.57 -97.24 -95.17,14,-61.50 -94.85 -85.02"
-	"angles" "-15 270 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/humans/group02/male_02.mdl"
-	"modelscale" "1.0"
-	"skin" "0"
-	"spawnflags" "4"
-	"StartDisabled" "0"
-	"origin" "2981.45 -1931.84 22.8991"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -5268]"
-	}
-}
-entity
-{
-	"id" "125849"
+	"id" "125933"
 	"classname" "infodecal"
-	"texture" "decals/bloodstain_002"
-	"origin" "2985.89 -1920 42.9854"
+	"texture" "decals/decalgraffiti003a"
+	"origin" "2910 -3075.94 71.6851"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -4268]"
-	}
-}
-entity
-{
-	"id" "125852"
-	"classname" "infodecal"
-	"texture" "decals/blood1"
-	"origin" "2967.06 -1938.79 18"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3768]"
-	}
-}
-entity
-{
-	"id" "125855"
-	"classname" "infodecal"
-	"texture" "decals/blood1"
-	"origin" "2996.31 -1931.69 18"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3268]"
-	}
-}
-entity
-{
-	"id" "125858"
-	"classname" "infodecal"
-	"texture" "decals/blood1"
-	"origin" "2960.85 -1924.87 18"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -2768]"
-	}
-}
-entity
-{
-	"id" "125861"
-	"classname" "infodecal"
-	"texture" "decals/blood1"
-	"origin" "2990.65 -1939.96 18"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -2268]"
-	}
-}
-entity
-{
-	"id" "125883"
-	"classname" "info_player_start"
-	"angles" "0 0 0"
-	"origin" "-842 550 18"
-	editor
-	{
-		"color" "0 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 500]"
+		"logicalpos" "[500 4500]"
 	}
 }
 cameras
