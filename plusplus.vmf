@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9520"
-	"mapversion" "207"
+	"mapversion" "208"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "207"
+	"mapversion" "208"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -57076,20 +57076,6 @@ entity
 }
 entity
 {
-	"id" "125883"
-	"classname" "info_player_start"
-	"angles" "0 0 0"
-	"origin" "-842 550 18"
-	editor
-	{
-		"color" "0 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 500]"
-	}
-}
-entity
-{
 	"id" "12219"
 	"classname" "item_ammo_smg1"
 	"angles" "-0.20614 30.0112 -0.204021"
@@ -73133,6 +73119,20 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "129036"
+	"classname" "info_player_start"
+	"angles" "0 0 0"
+	"origin" "2963.6 -2498.6 574"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
 	}
 }
 cameras
