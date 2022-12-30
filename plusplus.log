@@ -39853,3 +39853,115 @@ Level flags = 0
 Total triangle count: 20723
 Writing c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
 30 seconds elapsed
+
+
+
+materialPath: H:\SteamLibrary\steamapps\common\Source SDK Base 2013 Singleplayer\ep2\materials
+Loading C:\Users\Lukáš\Documents\ESCAPE-HL2MOD\plusplus.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "custom/pfp01" not found.
+Material not found!: CUSTOM/PFP01
+material "custom/note01" not found.
+Material not found!: CUSTOM/NOTE01
+Could not locate 'GameData' key in h:\steamlibrary\steamapps\common\source sdk base 2013 singleplayer\ep2\gameinfo.txt
+Patching WVT material: maps/plusplus/nature/blenddirtgrass001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-1092.00 -2543.00 1297.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Brush 103679: WARNING, microbrush
+Brush 103681: WARNING, microbrush
+Brush 103682: WARNING, microbrush
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (304391 bytes)
+Error! prop_static using model "models/props_c17/furniturefridge001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furniturefridge001a.mdl"!
+Error! To use model "models/weapons/w_package.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/weapons/w_package.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2686 texinfos to 1668
+Reduced 382 texdatas to 328 (18662 bytes to 16507)
+Writing C:\Users\Lukáš\Documents\ESCAPE-HL2MOD\plusplus.bsp
+2 seconds elapsed
+
+
+
+12 threads
+reading c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+reading c:\users\lukáš\documents\escape-hl2mod\plusplus.prt
+LoadPortals: couldn't read c:\users\lukáš\documents\escape-hl2mod\plusplus.prt
+
+
+
+materialPath: H:\SteamLibrary\steamapps\common\Source SDK Base 2013 Singleplayer\ep2\materials
+Loading C:\Users\Lukáš\Documents\ESCAPE-HL2MOD\plusplus.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "custom/pfp01" not found.
+Material not found!: CUSTOM/PFP01
+material "custom/note01" not found.
+Material not found!: CUSTOM/NOTE01
+Could not locate 'GameData' key in h:\steamlibrary\steamapps\common\source sdk base 2013 singleplayer\ep2\gameinfo.txt
+Patching WVT material: maps/plusplus/nature/blenddirtgrass001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-1092.00 -2543.00 1297.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Brush 103679: WARNING, microbrush
+Brush 103681: WARNING, microbrush
+Brush 103682: WARNING, microbrush
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (304391 bytes)
+Error! prop_static using model "models/props_c17/furniturefridge001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furniturefridge001a.mdl"!
+Error! To use model "models/weapons/w_package.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/weapons/w_package.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2686 texinfos to 1668
+Reduced 382 texdatas to 328 (18662 bytes to 16507)
+Writing C:\Users\Lukáš\Documents\ESCAPE-HL2MOD\plusplus.bsp
+2 seconds elapsed
+
+
+
+12 threads
+reading c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+reading c:\users\lukáš\documents\escape-hl2mod\plusplus.prt
+LoadPortals: couldn't read c:\users\lukáš\documents\escape-hl2mod\plusplus.prt
