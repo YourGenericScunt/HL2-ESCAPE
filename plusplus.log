@@ -47519,3 +47519,102 @@ Level flags = 0
 Total triangle count: 24114
 Writing c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
 35 seconds elapsed
+
+
+
+materialPath: H:\SteamLibrary\steamapps\common\Source SDK Base 2013 Singleplayer\ep2\materials
+Loading C:\Users\Lukáš\Documents\ESCAPE-HL2MOD\plusplus.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "custom/pfp01" not found.
+Material not found!: CUSTOM/PFP01
+material "custom/note01" not found.
+Material not found!: CUSTOM/NOTE01
+Error: displacement found on a(n) func_detail entity - not supported (entity 22, brush 0)
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\Lukáš\Documents\ESCAPE-HL2MOD\plusplus.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Error: displacement found on a(n) func_detail entity - not supported (entity 22, brush 0)
+
+
+
+12 threads
+reading c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+reading c:\users\lukáš\documents\escape-hl2mod\plusplus.prt
+LoadPortals: couldn't read c:\users\lukáš\documents\escape-hl2mod\plusplus.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+No vis information, direct lighting only.
+8701 faces
+1 degenerate faces
+3535244 square feet [509075136.00 square inches]
+1 Displacements
+1057 Square Feet [152306.00 Square Inches]
+162 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0270 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 10 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  62/1024         2976/49152    ( 6.1%) 
+brushes                916/8192        10992/98304    (11.2%) 
+brushsides            6204/65536       49632/524288   ( 9.5%) 
+planes                5752/65536      115040/1310720  ( 8.8%) 
+vertexes             13040/65536      156480/786432   (19.9%) 
+nodes                 5215/65536      166880/2097152  ( 8.0%) 
+texinfos              1878/12288      135216/884736   (15.3%) 
+texdata                350/2048        11200/65536    (17.1%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts              81/0            1620/0        ( 0.0%) 
+disp_tris              128/0             256/0        ( 0.0%) 
+disp_lmsamples        2640/0            2640/0        ( 0.0%) 
+faces                 8701/65536      487256/3670016  (13.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3754/65536      210224/3670016  ( 5.7%) 
+leaves                5278/65536      168896/2097152  ( 8.1%) 
+leaffaces            10517/65536       21034/131072   (16.0%) 
+leafbrushes           2815/65536        5630/131072   ( 4.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            56632/512000     226528/2048000  (11.1%) 
+edges                30824/256000     123296/1024000  (12.0%) 
+LDR worldlights        161/8192        14168/720896   ( 2.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            781/32768        7810/327680   ( 2.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         12405/65536       24810/131072   (18.9%) 
+cubemapsamples          60/1024          960/16384    ( 5.9%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     5748272/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      356010/393216   (90.5%) VERY FULL!
+LDR ambient table     5278/65536       21112/262144   ( 8.1%) 
+HDR ambient table     5278/65536       21112/262144   ( 8.1%) 
+LDR leaf ambient     20191/65536      565348/1835008  (30.8%) 
+HDR leaf ambient      5278/65536      147784/1835008  ( 8.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21828    ( 0.0%) 
+pakfile               [variable]     6548252/0        ( 0.0%) 
+physics               [variable]      361083/4194304  ( 8.6%) 
+physics terrain       [variable]         237/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 24114
+Writing c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+36 seconds elapsed
