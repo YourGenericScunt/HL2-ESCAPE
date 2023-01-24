@@ -55826,3 +55826,648 @@ Level flags = 0
 Total triangle count: 34487
 Writing c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
 1 minute, 1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\Lukáš\Documents\ESCAPE-HL2MOD\plusplus.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in d:\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/plusplus/nature/blenddirtgrass001a_wvt_patch
+Patching WVT material: maps/plusplus/concrete/blendbunk_conc01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3Brush 365603: WARNING, microbrush
+...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-1092.00 -2543.00 1297.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Brush 103679: WARNING, microbrush
+Brush 103681: WARNING, microbrush
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (854274 bytes)
+Error! prop_static using model "models/props_c17/furniturefridge001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furniturefridge001a.mdl"!
+Error! To use model "models/weapons/w_package.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/weapons/w_package.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3981 texinfos to 2501
+Reduced 560 texdatas to 476 (28555 bytes to 24914)
+Writing C:\Users\Lukáš\Documents\ESCAPE-HL2MOD\plusplus.bsp
+4 seconds elapsed
+
+
+
+12 threads
+reading c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+reading c:\users\lukáš\documents\escape-hl2mod\plusplus.prt
+LoadPortals: couldn't read c:\users\lukáš\documents\escape-hl2mod\plusplus.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+No vis information, direct lighting only.
+12881 faces
+1 degenerate faces
+5973674 square feet [860209152.00 square inches]
+6 Displacements
+10271 Square Feet [1479046.00 Square Inches]
+189 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0520 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 10 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  80/1024         3840/49152    ( 7.8%) 
+brushes               1301/8192        15612/98304    (15.9%) 
+brushsides            9286/65536       74288/524288   (14.2%) 
+planes                8802/65536      176040/1310720  (13.4%) 
+vertexes             18829/65536      225948/786432   (28.7%) 
+nodes                 7496/65536      239872/2097152  (11.4%) 
+texinfos              2501/12288      180072/884736   (20.4%) 
+texdata                476/2048        15232/65536    (23.2%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples       29462/0           29462/0        ( 0.0%) 
+faces                12881/65536      721336/3670016  (19.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5326/65536      298256/3670016  ( 8.1%) 
+leaves                7577/65536      242464/2097152  (11.6%) 
+leaffaces            15307/65536       30614/131072   (23.4%) 
+leafbrushes           3793/65536        7586/131072   ( 5.8%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            82533/512000     330132/2048000  (16.1%) 
+edges                44792/256000     179168/1024000  (17.5%) 
+LDR worldlights        188/8192        16544/720896   ( 2.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1091/32768       10910/327680   ( 3.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         17301/65536       34602/131072   (26.4%) 
+cubemapsamples          85/1024         1360/16384    ( 8.3%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     9768792/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      458750/393216   (116.7%) VERY FULL!
+LDR ambient table     7577/65536       30308/262144   (11.6%) 
+HDR ambient table     7577/65536       30308/262144   (11.6%) 
+LDR leaf ambient     29727/65536      832356/1835008  (45.4%) 
+HDR leaf ambient      7577/65536      212156/1835008  (11.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/32320    ( 0.0%) 
+pakfile               [variable]     9238189/0        ( 0.0%) 
+physics               [variable]      854274/4194304  (20.4%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 35316
+Writing c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+1 minute, 3 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\Lukáš\Documents\ESCAPE-HL2MOD\plusplus.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in d:\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/plusplus/nature/blenddirtgrass001a_wvt_patch
+Patching WVT material: maps/plusplus/concrete/blendbunk_conc01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3Brush 365603: WARNING, microbrush
+...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-1092.00 -2543.00 1297.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Brush 103679: WARNING, microbrush
+Brush 103681: WARNING, microbrush
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (854274 bytes)
+Error! prop_static using model "models/props_c17/furniturefridge001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furniturefridge001a.mdl"!
+Error! To use model "models/weapons/w_package.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/weapons/w_package.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3981 texinfos to 2501
+Reduced 560 texdatas to 476 (28555 bytes to 24914)
+Writing C:\Users\Lukáš\Documents\ESCAPE-HL2MOD\plusplus.bsp
+4 seconds elapsed
+
+
+
+12 threads
+reading c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+reading c:\users\lukáš\documents\escape-hl2mod\plusplus.prt
+LoadPortals: couldn't read c:\users\lukáš\documents\escape-hl2mod\plusplus.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+No vis information, direct lighting only.
+12881 faces
+1 degenerate faces
+5973674 square feet [860209152.00 square inches]
+6 Displacements
+10271 Square Feet [1479046.00 Square Inches]
+189 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0535 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 10 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  80/1024         3840/49152    ( 7.8%) 
+brushes               1301/8192        15612/98304    (15.9%) 
+brushsides            9286/65536       74288/524288   (14.2%) 
+planes                8802/65536      176040/1310720  (13.4%) 
+vertexes             18829/65536      225948/786432   (28.7%) 
+nodes                 7496/65536      239872/2097152  (11.4%) 
+texinfos              2501/12288      180072/884736   (20.4%) 
+texdata                476/2048        15232/65536    (23.2%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples       29462/0           29462/0        ( 0.0%) 
+faces                12881/65536      721336/3670016  (19.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5326/65536      298256/3670016  ( 8.1%) 
+leaves                7577/65536      242464/2097152  (11.6%) 
+leaffaces            15307/65536       30614/131072   (23.4%) 
+leafbrushes           3793/65536        7586/131072   ( 5.8%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            82533/512000     330132/2048000  (16.1%) 
+edges                44792/256000     179168/1024000  (17.5%) 
+LDR worldlights        188/8192        16544/720896   ( 2.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1091/32768       10910/327680   ( 3.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         17301/65536       34602/131072   (26.4%) 
+cubemapsamples          85/1024         1360/16384    ( 8.3%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     9768792/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      458923/393216   (116.7%) VERY FULL!
+LDR ambient table     7577/65536       30308/262144   (11.6%) 
+HDR ambient table     7577/65536       30308/262144   (11.6%) 
+LDR leaf ambient     29727/65536      832356/1835008  (45.4%) 
+HDR leaf ambient      7577/65536      212156/1835008  (11.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/32320    ( 0.0%) 
+pakfile               [variable]     9238189/0        ( 0.0%) 
+physics               [variable]      854274/4194304  (20.4%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 35316
+Writing c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+1 minute, 4 seconds elapsed
+
+
+
+12 threads
+reading c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+reading c:\users\lukáš\documents\escape-hl2mod\plusplus.prt
+LoadPortals: couldn't read c:\users\lukáš\documents\escape-hl2mod\plusplus.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+No vis information, direct lighting only.
+12881 faces
+1 degenerate faces
+5973674 square feet [860209152.00 square inches]
+6 Displacements
+10271 Square Feet [1479046.00 Square Inches]
+189 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0534 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 10 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  80/1024         3840/49152    ( 7.8%) 
+brushes               1301/8192        15612/98304    (15.9%) 
+brushsides            9286/65536       74288/524288   (14.2%) 
+planes                8802/65536      176040/1310720  (13.4%) 
+vertexes             18829/65536      225948/786432   (28.7%) 
+nodes                 7496/65536      239872/2097152  (11.4%) 
+texinfos              2501/12288      180072/884736   (20.4%) 
+texdata                476/2048        15232/65536    (23.2%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples       29462/0           29462/0        ( 0.0%) 
+faces                12881/65536      721336/3670016  (19.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5326/65536      298256/3670016  ( 8.1%) 
+leaves                7577/65536      242464/2097152  (11.6%) 
+leaffaces            15307/65536       30614/131072   (23.4%) 
+leafbrushes           3793/65536        7586/131072   ( 5.8%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            82533/512000     330132/2048000  (16.1%) 
+edges                44792/256000     179168/1024000  (17.5%) 
+LDR worldlights        188/8192        16544/720896   ( 2.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1091/32768       10910/327680   ( 3.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         17301/65536       34602/131072   (26.4%) 
+cubemapsamples          85/1024         1360/16384    ( 8.3%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     9768792/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      458923/393216   (116.7%) VERY FULL!
+LDR ambient table     7577/65536       30308/262144   (11.6%) 
+HDR ambient table     7577/65536       30308/262144   (11.6%) 
+LDR leaf ambient     29758/65536      833224/1835008  (45.4%) 
+HDR leaf ambient      7577/65536      212156/1835008  (11.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/32320    ( 0.0%) 
+pakfile               [variable]     9238189/0        ( 0.0%) 
+physics               [variable]      854274/4194304  (20.4%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 35316
+Writing c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+37 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\Lukáš\Documents\ESCAPE-HL2MOD\plusplus.vmf
+Could not locate 'GameData' key in d:\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/plusplus/nature/blenddirtgrass001a_wvt_patch
+Patching WVT material: maps/plusplus/concrete/blendbunk_conc01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3Brush 365603: WARNING, microbrush
+...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (2622.00 -5542.00 84.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Brush 103679: WARNING, microbrush
+Brush 103681: WARNING, microbrush
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (702820 bytes)
+Error! prop_static using model "models/props_c17/furniturefridge001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furniturefridge001a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2992 texinfos to 1828
+Reduced 414 texdatas to 344 (20998 bytes to 17992)
+Writing C:\Users\Lukáš\Documents\ESCAPE-HL2MOD\plusplus.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+reading c:\users\lukáš\documents\escape-hl2mod\plusplus.prt
+LoadPortals: couldn't read c:\users\lukáš\documents\escape-hl2mod\plusplus.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+No vis information, direct lighting only.
+9195 faces
+4415865 square feet [635884544.00 square inches]
+6 Displacements
+10271 Square Feet [1479046.00 Square Inches]
+120 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0451 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  41/1024         1968/49152    ( 4.0%) 
+brushes                927/8192        11124/98304    (11.3%) 
+brushsides            6402/65536       51216/524288   ( 9.8%) 
+planes                5658/65536      113160/1310720  ( 8.6%) 
+vertexes             13318/65536      159816/786432   (20.3%) 
+nodes                 5177/65536      165664/2097152  ( 7.9%) 
+texinfos              1828/12288      131616/884736   (14.9%) 
+texdata                344/2048        11008/65536    (16.8%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples       29462/0           29462/0        ( 0.0%) 
+faces                 9195/65536      514920/3670016  (14.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3710/65536      207760/3670016  ( 5.7%) 
+leaves                5219/65536      167008/2097152  ( 8.0%) 
+leaffaces            10828/65536       21656/131072   (16.5%) 
+leafbrushes           2756/65536        5512/131072   ( 4.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            58365/512000     233460/2048000  (11.4%) 
+edges                31759/256000     127036/1024000  (12.4%) 
+LDR worldlights        120/8192        10560/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            773/32768        7730/327680   ( 2.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         12369/65536       24738/131072   (18.9%) 
+cubemapsamples          58/1024          928/16384    ( 5.7%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     7797428/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      315567/393216   (80.3%) VERY FULL!
+LDR ambient table     5219/65536       20876/262144   ( 8.0%) 
+HDR ambient table     5219/65536       20876/262144   ( 8.0%) 
+LDR leaf ambient     14976/65536      419328/1835008  (22.9%) 
+HDR leaf ambient      5219/65536      146132/1835008  ( 8.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/22046    ( 0.0%) 
+pakfile               [variable]     6345825/0        ( 0.0%) 
+physics               [variable]      702820/4194304  (16.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 25051
+Writing c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+18 seconds elapsed
+
+
+
+materialPath: H:\SteamLibrary\steamapps\common\Source SDK Base 2013 Singleplayer\ep2\materials
+Loading C:\Users\Lukáš\Documents\ESCAPE-HL2MOD\plusplus.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "custom/pfp01" not found.
+Material not found!: CUSTOM/PFP01
+material "custom/note01" not found.
+Material not found!: CUSTOM/NOTE01
+Could not locate 'GameData' key in h:\steamlibrary\steamapps\common\source sdk base 2013 singleplayer\ep2\gameinfo.txt
+Patching WVT material: maps/plusplus/nature/blenddirtgrass001a_wvt_patch
+Patching WVT material: maps/plusplus/concrete/blendbunk_conc01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3Brush 365603: WARNING, microbrush
+...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-1092.00 -2543.00 1297.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Brush 103679: WARNING, microbrush
+Brush 103681: WARNING, microbrush
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (860599 bytes)
+Error! prop_static using model "models/props_c17/furniturefridge001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furniturefridge001a.mdl"!
+Error! To use model "models/weapons/w_package.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/weapons/w_package.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4064 texinfos to 2552
+Reduced 570 texdatas to 486 (29218 bytes to 25576)
+Writing C:\Users\Lukáš\Documents\ESCAPE-HL2MOD\plusplus.bsp
+4 seconds elapsed
+
+
+
+12 threads
+reading c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+reading c:\users\lukáš\documents\escape-hl2mod\plusplus.prt
+LoadPortals: couldn't read c:\users\lukáš\documents\escape-hl2mod\plusplus.prt
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\Lukáš\Documents\ESCAPE-HL2MOD\plusplus.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in d:\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/plusplus/nature/blenddirtgrass001a_wvt_patch
+Patching WVT material: maps/plusplus/concrete/blendbunk_conc01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3Brush 365603: WARNING, microbrush
+...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-1092.00 -2543.00 1297.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Brush 103679: WARNING, microbrush
+Brush 103681: WARNING, microbrush
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (860611 bytes)
+Error! prop_static using model "models/props_c17/furniturefridge001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/furniturefridge001a.mdl"!
+Error! To use model "models/weapons/w_package.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/weapons/w_package.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4064 texinfos to 2552
+Reduced 570 texdatas to 486 (29218 bytes to 25576)
+Writing C:\Users\Lukáš\Documents\ESCAPE-HL2MOD\plusplus.bsp
+4 seconds elapsed
+
+
+
+12 threads
+reading c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+reading c:\users\lukáš\documents\escape-hl2mod\plusplus.prt
+LoadPortals: couldn't read c:\users\lukáš\documents\escape-hl2mod\plusplus.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+No vis information, direct lighting only.
+13304 faces
+1 degenerate faces
+6198714 square feet [892614784.00 square inches]
+6 Displacements
+10271 Square Feet [1479046.00 Square Inches]
+208 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0598 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 10 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  81/1024         3888/49152    ( 7.9%) 
+brushes               1317/8192        15804/98304    (16.1%) 
+brushsides            9382/65536       75056/524288   (14.3%) 
+planes                8882/65536      177640/1310720  (13.6%) 
+vertexes             19378/65536      232536/786432   (29.6%) 
+nodes                 7639/65536      244448/2097152  (11.7%) 
+texinfos              2552/12288      183744/884736   (20.8%) 
+texdata                486/2048        15552/65536    (23.7%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples       29462/0           29462/0        ( 0.0%) 
+faces                13304/65536      745024/3670016  (20.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5401/65536      302456/3670016  ( 8.2%) 
+leaves                7721/65536      247072/2097152  (11.8%) 
+leaffaces            15766/65536       31532/131072   (24.1%) 
+leafbrushes           3854/65536        7708/131072   ( 5.9%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            84727/512000     338908/2048000  (16.5%) 
+edges                45922/256000     183688/1024000  (17.9%) 
+LDR worldlights        207/8192        18216/720896   ( 2.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1110/32768       11100/327680   ( 3.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         17445/65536       34890/131072   (26.6%) 
+cubemapsamples          85/1024         1360/16384    ( 8.3%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]    10537636/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      467067/393216   (118.8%) VERY FULL!
+LDR ambient table     7721/65536       30884/262144   (11.8%) 
+HDR ambient table     7721/65536       30884/262144   (11.8%) 
+LDR leaf ambient     31045/65536      869260/1835008  (47.4%) 
+HDR leaf ambient      7721/65536      216188/1835008  (11.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/33692    ( 0.0%) 
+pakfile               [variable]     9242008/0        ( 0.0%) 
+physics               [variable]      860611/4194304  (20.5%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 36364
+Writing c:\users\lukáš\documents\escape-hl2mod\plusplus.bsp
+39 seconds elapsed
